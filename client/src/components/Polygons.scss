@@ -1,0 +1,12 @@
+.Polygons {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 16px;
+
+  .polygons-wrapper {
+    display: flex;
+  }
+  .about-polygons {
+    margin: 20px;
+  }
+}

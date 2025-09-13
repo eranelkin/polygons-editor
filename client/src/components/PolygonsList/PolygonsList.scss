@@ -1,0 +1,23 @@
+.PolygonsList {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  margin: 0 16px;
+
+  .polygon-item {
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #82d2f5;
+    }
+  }
+  .polygon-name {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
