@@ -72,7 +72,15 @@ The project is divided into two main parts:
     ```
 
 2.  Start the client:
+
     ```bash
     npm start
     ```
+
     The client will start on port 4002 and open in your default browser.
+
+3.  Run tests:
+    ```bash
+    npm test
+    ```
+    partial tests. in the real world app need to add full tests coverage for both FE + BE
